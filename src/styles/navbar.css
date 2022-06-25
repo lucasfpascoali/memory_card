@@ -1,0 +1,24 @@
+nav {
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    background-color: green;
+}
+
+.nav-header,
+.scores {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 30px;
+    padding-right: 5px;
+}
+
+.scores {
+    justify-content: flex-start;
+}
